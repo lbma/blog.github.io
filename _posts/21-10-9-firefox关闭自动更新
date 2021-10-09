@@ -1,6 +1,5 @@
-firefox关闭自动更新
-
 编辑文件 C:\Program Files\Mozilla Firefox\defaults\pref\channel-prefs.js
+将
 pref("app.update.channel", "release");
 修改为
 pref("app.update.channel", "");
